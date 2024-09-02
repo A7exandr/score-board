@@ -39,3 +39,5 @@ function minus1Guest() {
 
 function resetHome() { homeScore = 0; updateScores(); }
 function resetGuest() { guestScore = 0; updateScores(); }
+
+window.homeScore = homeScore
