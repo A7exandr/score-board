@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <title>Scoreboard</title>
+    </head>
+    <body>
+        <div class="container">
+            <section class="table">
+                <p class="home-heading">HOME</p>
+                <div class="home-score">0</div>
+                <div class="points-menu">
+                    <button onclick="addPoints('home', 1)">+ 1</button>
+                    <button onclick="addPoints('home', 2)">+ 2</button>
+                    <button onclick="addPoints('home', 3)">+ 3</button>
+                </div>
+                <div class="points-menu">
+                    <button id="reset-home-btn" onclick="resetHome()">Reset</button>
+                    <button onclick="minus1Home()">- 1</button>
+                </div>
+            </section>
+            <section class="table">
+                <p class="guest-heading">GUEST</h3>
+                <div class="guest-score">0</div>
+                <div class="points-menu">
+                    <button onclick="addPoints('guest', 1)">+ 1</button>
+                    <button onclick="addPoints('guest', 2)">+ 2</button>
+                    <button onclick="addPoints('guest', 3)">+ 3</button>
+                </div>
+                <div class="points-menu">
+                    <button id="reset-guest-btn" onclick="resetGuest()">Reset</button>
+                    <button onclick="minus1Guest()">- 1</button>
+                </div>
+            </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

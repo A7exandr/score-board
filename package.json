@@ -1,0 +1,14 @@
+{
+  "name": "Scrim-s09kn6v61t",
+  "description": "https://v2.scrimba.com/s04k019/s09kn6v61t",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vite": "latest"
+  },
+  "devDependencies": {}
+}
